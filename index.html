@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر TRT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>متجر TRT</h1>
+        <p class="store-description">
+            السلام عليكم. هذا المتجر مختص في بيع اليوزرات لي تطبيقاتكم المفضلة. المتجر بي اشراف اياد الغامدي و طالب الشمري نسعد بي خدمتكم و يشرفنا التعامل معكم.
+        </p>
+    </header>
+    
+    <main>
+        <div class="box instagram-box" onclick="navigateToPage('instagram')">
+            Instagram
+        </div>
+        <div class="box tiktok-box" onclick="navigateToPage('tiktok')">
+            TIK TOK
+        </div>
+        <div class="box snapchat-box" onclick="navigateToPage('snapchat')">
+            Snapchat
+        </div>
+        
+        <div id="options" class="options">
+            <!-- الخيارات ستظهر هنا -->
+        </div>
+        
+        <!-- قسم المحادثة مع المشرفين -->
+        <div class="chat-container">
+            <h2>الدردشة مع المشرفين</h2>
+            <div class="chat-box" id="chat-box">
+                <!-- الرسائل ستظهر هنا -->
+            </div>
+            <input type="text" id="message-input" placeholder="اكتب رسالتك هنا...">
+            <button onclick="sendMessage()">إرسال</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة بي اسم اياد & طالب</p>
+        <p>طرق التواصل: 0598847272</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* خلفية سوداء */
+    color: #fff; /* نص أبيض */
+}
+
+header {
+    background-color: #4B0082; /* اللون البنفسجي */
+    color: #00BFFF; /* الأزرق السماوي */
+    padding: 20px;
+    text-align: center;
+}
+
+.store-description {
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* تغيير التخطيط ليتناسب مع قسم المحادثة */
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.instagram-box {
+    background-color: #E1306C; /* لون Instagram */
+}
+
+.tiktok-box {
+    background-color: #000; /* لون TikTok */
+    color: #fff; /* نص أبيض لتباين أفضل */
+}
+
+.snapchat-box {
+    background-color: #FFFC00; /* لون Snapchat */
+    color: #000; /* نص أسود لتباين أفضل */
+}
+
+.options {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.options input {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px; /* جعل العرض أوسع */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.chat-container h2 {
+    margin: 0 0 10px;
+    color: #00BFFF; /* الأزرق السماوي */
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    padding: 10px;
+    background-color: #333;
+}
+
+#message-input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #4B0082; /* اللون البنفسجي */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
